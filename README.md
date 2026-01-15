@@ -38,7 +38,7 @@ The dataset consists of nozzle geometries parameterized by Bézier curves and th
 
 ![Input_1](asset/FIG_3(a).png)
 
-In this code, the identifier matrix assigns values of 0 to the region outside the nozzle, 1 to the internal flow region, 2 to the inlet, 3 to the outlet, 4 to the boundary of axis and 5 to the contour of the nozzle.
+The identifier matrix assigns values of 0 to the region outside the nozzle, 1 to the internal flow region, 2 to the inlet, 3 to the outlet, 4 to the boundary of axis and 5 to the contour of the nozzle.
 
 ![Input_2](asset/FIG_3(b).png)
 * **Outputs:** Flow field images/tensors.
