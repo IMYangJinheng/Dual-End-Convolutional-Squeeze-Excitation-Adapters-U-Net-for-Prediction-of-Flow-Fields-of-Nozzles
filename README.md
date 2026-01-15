@@ -38,3 +38,18 @@ The dataset consists of nozzle geometries parameterized by Bézier curves and th
 
 ![Input_2](asset/FIG_3(b).png)
 * **Outputs:** Flow field images/tensors.
+
+## 🏃 Usage
+
+* **Train the Base Model**
+*  **Incremental Learning (Adapter Tuning):**Freeze the backbone and train the DE-ConvSE adapters on a small set of new geometries (e.g., 30 samples).
+
+## 📊 Results
+![Result_1](asset/FIG_20.png)
+![Result_2](asset/FIG_22.png)
+![Result_3](asset/FIG_24.png)
+
+## 📧 Contact
+Since our paper is currently under review, the detailed code and dataset will be uploaded after the paper is accepted. If you need the code and dataset recently, please contact us:Jinheng Yang: 124101022118@njust.edu.cn
+
+
