@@ -54,6 +54,6 @@ The identifier matrix assigns values of 0 to the region outside the nozzle, 1 to
 ![Result_3](asset/FIG_24.png)
 
 ## 📧 Contact
-Since our paper is currently under review, the detailed code and dataset will be uploaded after the paper is accepted. If you need the code and dataset recently, please contact us:Jinheng Yang: 124101022118@njust.edu.cn
+Since our paper is currently under review, the detailed code and dataset will be uploaded after the paper is accepted. If you need the code and dataset recently, please contact us: Jinheng Yang: 124101022118@njust.edu.cn
 
 
