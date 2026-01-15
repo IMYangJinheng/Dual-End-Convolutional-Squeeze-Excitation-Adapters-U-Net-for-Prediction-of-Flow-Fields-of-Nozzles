@@ -4,9 +4,8 @@ This repository contains the implementation of the paper: **"Incremental Learnin
 We propose a **DE-ConvSE Adapter U-Net** for rapid nozzle flow prediction, in whicha U-Net backbone is augmented with Dual-End Convolutional Squeeze-and-Excitation adapters. 
 The network integrates geometric topology encoding and boundary condition mapping to accurately reconstruct velocity, pressure, andtemperature distributions. 
 To enable efficient adaptation to previously unseen nozzle geometries, an adapter-basedincremental learning strategy is introduced, where the pretrained backbone is frozen and only a small set of adapter parameters is updated. 
-This strategy substantially improves the generalization capability of the model while maintaining high computational efficiency and mitigating catastrophic forgetting. Validation on a convergent–divergent nozzle benchmark demonstrates that the proposed approach achieves high reconstruction accuracy, 
-with maximum symmetric relative errors below 9.14% and mean absolute errors below 5.21%. Compared with CFD solvers, the proposed method is mesh-free and provides orders-of-magnitude acceleration, highlighting its potential for real-time flow prediction and
-design optimization in advanced fluid dynamic systems.
+This strategy substantially improves the generalization capability of the model while maintaining high computational efficiency and mitigating catastrophic forgetting. Validation on a convergent–divergent nozzle benchmark demonstrates that the proposed approach achieves high reconstruction accuracy, with maximum symmetric relative errors below **9.14%** and mean absolute errors below **5.21%.** 
+Compared with CFD solvers, the proposed method is **mesh-free** and provides **orders-of-magnitude acceleration**, highlighting its potential for real-time flow prediction and design optimization in advanced fluid dynamic systems.
 
 ![Overview](asset/FIG_1.png)
 
