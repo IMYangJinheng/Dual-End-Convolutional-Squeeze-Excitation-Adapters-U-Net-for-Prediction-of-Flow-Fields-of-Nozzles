@@ -1,7 +1,7 @@
 # Dual-End-Convolutional-Squeeze-Excitation-Adapters-U-Net-for-Prediction-of-Flow-Fields-of-Nozzles
 This repository contains the implementation of the paper: **"Incremental Learning for Flow Field Reconstruction in Variable-Geometry Nozzles"**(Under Review).
 
-We propose a DE-ConvSE Adapter U-Net for rapid nozzle flow prediction, in whicha U-Net backbone is augmented with Dual-End Convolutional Squeeze-and-Excitation adapters. 
+We propose a **DE-ConvSE Adapter U-Net** for rapid nozzle flow prediction, in whicha U-Net backbone is augmented with Dual-End Convolutional Squeeze-and-Excitation adapters. 
 The network integrates geometric topology encoding and boundary condition mapping to accurately reconstruct velocity, pressure, andtemperature distributions. 
 To enable efficient adaptation to previously unseen nozzle geometries, an adapter-basedincremental learning strategy is introduced, where the pretrained backbone is frozen and only a small set of adapter parameters is updated. 
 This strategy substantially improves the generalization capability of the model while maintaining high computational efficiency and mitigating catastrophic forgetting. Validation on a convergent–divergent nozzle benchmark demonstrates that the proposed approach achieves high reconstruction accuracy, 
