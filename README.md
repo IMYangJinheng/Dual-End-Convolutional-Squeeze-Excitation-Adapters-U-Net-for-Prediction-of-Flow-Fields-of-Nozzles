@@ -21,22 +21,20 @@ design optimization in advanced fluid dynamic systems.
 
 ## 🛠️ Model Architecture
 
-![Model Architecture_1](asset/FIG_5/.png)
+![Model Architecture_1](asset/FIG_5.png)
 
 ![Model Architecture_2](asset/FIG_6.png)
 
 ## 📂 Dataset Preparation
 The nozzle configuration developed by the Jet Propulsion Laboratory (JPL) is adopted as the reference geometry.
 
-![Base Nozzle_1](assets/architecture.png)
-
-![Base_Nozzle_2](assets/architecture.png)
+![Base Nozzle_1](asset/FIG_2.png)
 
 The dataset consists of nozzle geometries parameterized by Bézier curves and their corresponding CFD flow fields (Temperature, Velocity, Pressure).
 
 * **Inputs:** Signed Distance Field (SDF) and Identifier Matrix (IM).
 
-![Input_1](assets/architecture.png)
+![Input_1](asset/FIG_3(a).png)
 
-![Input_2](assets/architecture.png)
+![Input_2](asset/FIG_3(b).png)
 * **Outputs:** Flow field images/tensors.
