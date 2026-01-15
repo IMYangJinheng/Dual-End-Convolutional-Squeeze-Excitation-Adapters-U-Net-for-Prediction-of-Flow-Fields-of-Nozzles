@@ -17,7 +17,7 @@ design optimization in advanced fluid dynamic systems.
 * **Geometry-Aware Inputs:** Utilizes Signed Distance Fields (SDF) and Identifier Matrices (IM) to encode boundary conditions.
 * **High Performance:**
     * **Speedup:** >300x faster than traditional CFD solvers.
-    * **Accuracy:** Max Symmetric Relative Error (SRE) < 9.14%, and Mean Absolute Errors (MAE) below 5.21%
+    * **Accuracy:** Max Symmetric Relative Error (SRE) < 9.14%, and Mean Absolute Errors (MAE) < 5.21%
 
 ## 🛠️ Model Architecture
 
