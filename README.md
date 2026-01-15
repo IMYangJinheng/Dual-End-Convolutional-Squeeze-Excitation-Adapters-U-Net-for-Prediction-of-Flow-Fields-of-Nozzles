@@ -8,7 +8,7 @@ This strategy substantially improves the generalization capability of the model 
 with maximum symmetric relative errors below 9.14% and mean absolute errors below 5.21%. Compared with CFD solvers, the proposed method is mesh-free and provides orders-of-magnitude acceleration, highlighting its potential for real-time flow prediction and
 design optimization in advanced fluid dynamic systems.
 
-![Overview](assets/architecture.png)
+![Overview](assets/FIG_1.png)
 
 ## 🚀 Key Features
 
