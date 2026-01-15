@@ -8,7 +8,7 @@ This strategy substantially improves the generalization capability of the model 
 with maximum symmetric relative errors below 9.14% and mean absolute errors below 5.21%. Compared with CFD solvers, the proposed method is mesh-free and provides orders-of-magnitude acceleration, highlighting its potential for real-time flow prediction and
 design optimization in advanced fluid dynamic systems.
 
-![Overview](assets/FIG_1.png)
+![Overview](asset/FIG_1.png)
 
 ## 🚀 Key Features
 
@@ -21,9 +21,9 @@ design optimization in advanced fluid dynamic systems.
 
 ## 🛠️ Model Architecture
 
-![Model Architecture_1](assets/architecture.png)
+![Model Architecture_1](asset/FIG_5/.png)
 
-![Model Architecture_2](assets/architecture.png)
+![Model Architecture_2](asset/FIG_6.png)
 
 ## 📂 Dataset Preparation
 The nozzle configuration developed by the Jet Propulsion Laboratory (JPL) is adopted as the reference geometry.
